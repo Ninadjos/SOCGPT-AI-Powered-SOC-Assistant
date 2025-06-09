@@ -21,7 +21,6 @@ SOCGPT/
 │   └── example_logs.txt
 │
 ├── 📂 src/                   # Source code
-│   ├── __init__.py
 │   ├── log_analysis.py       # Handles log ingestion
 │   ├── summarizer.py         # Uses LLM to summarize logs
 │   ├── triage.py             # Severity classification
