@@ -14,3 +14,5 @@ def explain_threat(log: str, question: str) -> str:
         max_tokens=200
     )
     return response['choices'][0]['message']['content'].strip()
+
+
